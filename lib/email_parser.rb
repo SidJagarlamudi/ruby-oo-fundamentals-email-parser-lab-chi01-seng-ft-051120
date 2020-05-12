@@ -14,7 +14,7 @@ class EmailAddressParser
   
   def parse 
    
-    @email.delete(,).split.uniq
+    @email.delete(',).split.uniq
   end
   
   
