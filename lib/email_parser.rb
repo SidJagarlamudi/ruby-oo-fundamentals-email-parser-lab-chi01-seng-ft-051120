@@ -5,10 +5,15 @@
 
 class EmailAddressParser
   
-  attr_accessor :
+ 
   
-  def initialize
+  def initialize(email)
+    @email
     
+  end
+  
+  def parse 
+    @email + "," + " "
   end
   
   
